@@ -3,69 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No Edites Más - Próximamente</title>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <title>No Edites Más | Edición de Video Profesional para Redes</title>
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="hero">
-        <div class="logo-container">
-            <img src="img/logo.png" alt="No Edites Más Logo" class="main-logo">
+    <nav class="nav-bar">
+        <div class="logo">
+            <a href="#inicio">
+                <img src="img/logo.png" alt="Logo No Edites Más">
+            </a>
+            <span>No Edites Más</span>
         </div>
-        <h1 class="coming-soon">PRÓXIMAMENTE</h1>
-        <p class="tagline">La revolución en la edición de vídeo está llegando. Calidad increíble al mejor precio.</p>
-        
-        <div class="launch-zone">
-            <span class="launch-date">Lanzamiento previsto: Agosto 2026 - Agosto 2027</span>
-            <div class="progress-bar"><div class="progress-fill"></div></div>
+        <div class="desktop-menu">
+            <button class="hamburger-icon" id="open-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-menu">
+                <button class="close-icon" id="close-btn">
+                    <span></span>
+                    <span></span>
+                </button>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proceso">Cómo Funciona</a></li>
+                <li><a href="#planes">Planes</a></li>
+                <li><a href="#ventajas">Ventajas</a></li>
+                <li><a href="#faq">Preguntas</a></li>
+            </ul>
         </div>
+    </nav>
 
-    </header>
+    <main>
+        <section id="inicio" class="hero reveal">
+            <div class="hero-content">
+                <h1>Tú grabas. <span class="text-gradient">Un humano</span> edita. Tus redes explotan.</h1>
+                <p>Olvídate del software complejo y las horas perdidas. Editores profesionales humanos transforman tus videos brutos en contenido viral de alta retención para TikTok, Reels y Shorts.</p>
+                <div class="hero-cta">
+                    <a href="#planes" class="btn btn-primary">Ver Planes y Tarifas</a>
+                    <a href="#proceso" class="btn btn-secondary">¿Cómo trabajamos?</a>
+                </div>
+            </div>
+        </section>
 
-    <main class="testimonials-container">
-        <h2 class="section-title">Testimonios de nuestros creadores</h2>
-        
-        <div class="testimonials-grid">
-            <div class="card">
-                <div class="card-header">
-                    <span class="platform youtube">YouTube</span>
-                    <div class="stars">★★★★★</div>
+        <section id="proceso" class="process reveal">
+            <h2 class="section-title">Tu contenido listo en 3 pasos</h2>
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="process-number">1</div>
+                    <h3>Sube tus brutos</h3>
+                    <p>Envíanos tus videos grabados desde el móvil o cámara a tu carpeta privada de forma ilimitada.</p>
                 </div>
-                <p class="comment">"Le pasé 2 horas de bruto de un videovlog y me sacó una joya de 12 minutos con un ritmo brutal. La retención de mi canal ha subido un 15% desde que trabaja conmigo. Y encima súper barato."</p>
-                <h4 class="author">@AlexVlogs</h4>
-            </div>
-            
-            <div class="card">
-                <div class="card-header">
-                    <span class="platform tiktok">TikTok / Reels</span>
-                    <div class="stars">★★★★★</div>
+                <div class="process-card">
+                    <div class="process-number">2</div>
+                    <h3>Editor asignado</h3>
+                    <p>Un editor humano profesional (nada de IA genérica) monta, añade subtítulos dinámicos, efectos y hooks visuales.</p>
                 </div>
-                <p class="comment">"Buscaba packs de Shorts semanales porque no me daba la vida para editar. Me los entrega editados con subtítulos dinámicos y ganchos en menos de 24h. No vuelvo a abrir un editor en mi vida."</p>
-                <h4 class="author">Marta G. • Creadora de contenido</h4>
-            </div>
-            
-            <div class="card">
-                <div class="card-header">
-                    <span class="platform business">Infoproductos</span>
-                    <div class="stars">★★★★★</div>
+                <div class="process-card">
+                    <div class="process-number">3</div>
+                    <h3>Recibe y publica</h3>
+                    <p>En menos de 48 horas tienes tu video optimizado para retener a la audiencia y reventar el algoritmo.</p>
                 </div>
-                <p class="comment">"Tenía miedo por el precio tan bajo, pero el nivel de edición de audio, transiciones y corrección de color es totalmente profesional. Ideal para delegar la edición de mis cursos online."</p>
-                <h4 class="author">David F. • Lanzador</h4>
             </div>
-        </div>
+        </section>
+
+        <section id="planes" class="pricing reveal">
+            <h2 class="section-title">Planes sencillos, sin sorpresas</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Pack Creador</h3>
+                    <div class="price">€199<span>/mes</span></div>
+                    <ul>
+                        <li>4 Videos editados al mes</li>
+                        <li>Subtítulos dinámicos animados</li>
+                        <li>Efectos de sonido y música libre</li>
+                        <li>Entrega en 48 horas</li>
+                        <li>Revisiones ilimitadas</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Empezar Ahora</a>
+                </div>
+                <div class="price-card featured">
+                    <div class="badge">Más Popular</div>
+                    <h3>Pack Viral Pro</h3>
+                    <div class="price">€399<span>/mes</span></div>
+                    <ul>
+                        <li>12 Videos editados al mes</li>
+                        <li>Hooks premium para retención</li>
+                        <li>Diseño de miniaturas incluido</li>
+                        <li>Soporte directo por WhatsApp</li>
+                        <li>Entrega prioritaria 24/48h</li>
+                        <li>Editor humano dedicado</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Dominar Mis Redes</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="ventajas" class="features reveal">
+            <h2 class="section-title">¿Por qué delegar en nosotros?</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">🔥</div>
+                    <h4>Edición de Alta Retención</h4>
+                    <p>Estructuramos tus videos usando las técnicas de los creadores más grandes para maximizar el tiempo de visualización.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🧠</div>
+                    <h4>Criterio Humano</h4>
+                    <p>La IA no entiende el humor, el ritmo ni la emoción. Nuestros editores pulen cada corte con intención real.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">⏳</div>
+                    <h4>Recupera tu Tiempo</h4>
+                    <p>Pasa de consumir 15 horas semanales editando a enfocarte al 100% en crear mejores ideas y guiones.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq reveal">
+            <h2 class="section-title">Preguntas Frecuentes</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-question">¿Quién edita realmente mis videos? <span>+</span></button>
+                    <div class="faq-answer">
+                        <p>Un editor audiovisual humano con experiencia en narrativa digital y algoritmos de plataformas verticales. No automatizamos procesos con plantillas rígidas de IA.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">¿Qué pasa si no me gusta el resultado final? <span>+</span></button>
+                    <div class="faq-answer">
+                        <p>Todos nuestros planes incluyen revisiones. Puedes pedir los cambios necesarios hasta que el video quede exactamente como te imaginas.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">¿Hay permanencia en las suscripciones? <span>+</span></button>
+                    <div class="faq-answer">
+                        <p>No, ninguna. Puedes cancelar, pausar o cambiar tu plan en cualquier momento desde tu panel de usuario sin penalizaciones.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
         <p>&copy; 2026 No Edites Más. Todos los derechos reservados.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
